@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Navbar from './components/Navbar';
+import Navbar from './components/navbar';
 import { BrowserRouter as Router, Routes, Route}
 	from 'react-router-dom';
 import Home from './pages'; //automatically routes to index.js
@@ -18,7 +18,7 @@ return (
 	<Router>
 	<Navbar />
 	<Routes>
-		<Route exact path='/' exact element={<Home />} />
+		<Route exact path='/' element={<Home />} />
 		<Route path='/designathon' element={<Designathon/>} />
 		<Route path='/memberExperience' element={<MemberExperience/>} />
         <Route path='/mentor' element={<Mentor/>} />

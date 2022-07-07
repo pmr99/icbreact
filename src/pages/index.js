@@ -1,7 +1,7 @@
 import React from 'react';
-import LandingStats from './indexComponents.js/landingStats';
-import LandingProjSummary from './indexComponents.js/landingProjSummary';
-import LandingCollab from './indexComponents.js/landingCollab';
+import LandingStats from '../components/indexComponents/landingStats';
+import LandingProjSummary from '../components/indexComponents/landingProjSummary';
+import LandingCollab from '../components/indexComponents/landingCollab';
 
 const Home = () => {
 return (
