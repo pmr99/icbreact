@@ -2,7 +2,7 @@
 const LandingStats = (props) => {
 
     return (
-        <div>
+        <div className = "Landing-stat-indiv">
             <p> {props.number}</p>
             <p> {props.subheader} </p>
         </div>

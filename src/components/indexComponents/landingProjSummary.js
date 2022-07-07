@@ -1,7 +1,7 @@
 const LandingProjSummary = (props) => {
 
     return (
-        <div>
+        <div className = "landing-projSummary">
 
             <p>{props.proj}</p>
             <p> {props.pillar} </p>

@@ -11,3 +11,44 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.landing-header {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 20px 10px;
+}
+
+
+.landing-stats-container {
+  /* Add shadows to create the "card" effect */
+ background-color: antiquewhite;
+}
+
+.Landing-stat-indiv {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+}
+
+.landing-projSummary {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.landing-projSummary-container {
+  background-color: aquamarine;
+}
+
+.second-header {
+  text-align: center;
+  text-shadow: black;
+}
+
+.landing-collab-container {
+  background-color:black;
+
+}
+.landing-collab {
+  background-color:plum;
+
+}
