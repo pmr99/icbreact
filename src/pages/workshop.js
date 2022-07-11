@@ -2,6 +2,7 @@ import React from 'react';
 import WorkshopCarasoul from '../components/workshopComponets/workshopCarasoul';
 import WorkshopFAQs from '../components/workshopComponets/workshopFAQs';
 
+// returns workshop page
 const Workshop = () => {
 return (
 	<div>
@@ -19,7 +20,7 @@ return (
 		</div>
 
 		<div className="second-header">FAQs</div>
-		<div className="faqs-container">
+		<div className="faqs-container"> 
 			<WorkshopFAQs question="Question" icon="+" shape=""></WorkshopFAQs>
 			<WorkshopFAQs question="Question" icon="+" shape=""></WorkshopFAQs>
 			<WorkshopFAQs question="Question" icon="x" shape=""></WorkshopFAQs>
