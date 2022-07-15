@@ -12,6 +12,7 @@ import Projects from './pages/projects';
 import Recruitment from './pages/recruitment';
 import Team from './pages/team';
 import Workshop from './pages/workshop';
+//michelle says hellooooo!!
 
 function App() {
 return (
