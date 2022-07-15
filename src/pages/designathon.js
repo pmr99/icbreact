@@ -1,8 +1,8 @@
-import React from 'react';
+import React from 'react'; // brenda was here 
 
 const Designathon = () => {
 return (
-	<h1>You can write your designathon!</h1>
+	<h1>peepeepoopoo</h1>
 );
 };
 
