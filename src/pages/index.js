@@ -9,7 +9,7 @@ const Home = () => {
       <div className="landing-header">
         [Insert brief overview w/ mission statement & work we do. 1-2 Sentences
         only.] Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu
-        turpis molestie, dictum est a, mattis tellus.
+        turpis molestie, dictum est a, mattis tellus This is the latest update Ying.
       </div>
       <div className="landing-stats-container">
         <LandingStats img="" number="50" subheader="Completed Projects">
