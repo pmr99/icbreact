@@ -1,4 +1,4 @@
-import React from "react"; //ying was here
+import React from "react"; //ying was here!!!
 import LandingStats from "../components/indexComponents/landingStats";
 import LandingProjSummary from "../components/indexComponents/landingProjSummary";
 import LandingCollab from "../components/indexComponents/landingCollab";
