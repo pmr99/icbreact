@@ -34,6 +34,10 @@ code {
 
 .landing-projSummary {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  display: inline-block;
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .landing-projSummary-container {
@@ -46,10 +50,15 @@ code {
 }
 
 .landing-collab-container {
-  background-color:black;
 
 }
+
 .landing-collab {
+  text-align: center;
   background-color:plum;
+  display: inline-block;
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
 
 }
