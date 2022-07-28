@@ -1,8 +1,8 @@
-const LandingCollab = (props) => {
+const Callout = (props) => {
 
     return (
-        <div className="landing-collab">
-            <p>{props.title}</p>
+        <div className="callout">
+            <h5>{props.title}</h5>
             <p> {props.text} </p>
             <p>{props.button1}</p>
             <p>{props.button2}</p>
@@ -11,4 +11,4 @@ const LandingCollab = (props) => {
     )
 }
 
-export default LandingCollab
+export default Callout

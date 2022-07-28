@@ -12,7 +12,7 @@ code {
     monospace;
 }
 
-.landing-header {
+.quote {
   overflow: hidden;
   background-color: #f1f1f1;
   padding: 20px 10px;
@@ -49,12 +49,14 @@ code {
   text-shadow: black;
 }
 
-.landing-collab-container {
+/* This needs to be moved somewhere else. */
+.duo-callout {
+  background-color:black;
 
 }
 
-.landing-collab {
-  text-align: center;
+/* This needs to be moved somewhere else. */
+.callout {
   background-color:plum;
   display: inline-block;
   width: 40%;
