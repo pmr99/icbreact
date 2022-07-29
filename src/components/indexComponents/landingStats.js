@@ -3,8 +3,8 @@ const LandingStats = (props) => {
 
     return (
         <div className = "Landing-stat-indiv">
-            <p> {props.number}</p>
-            <p> {props.subheader} </p>
+            <p style={{fontWeight: "bold", textAlign: "center"}}> {props.number}</p>
+            <p style= {{textAlign:"center"}}> {props.subheader} </p>
         </div>
 
     )
