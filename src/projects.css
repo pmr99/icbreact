@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+h4 {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 36px;
+}
+
+.featured-proj-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr)
+}
+
+.featured-proj {
+    margin: 50px;
+    width: 600px;
+}
+
+.featured-proj-name {
+    font-family: Karla;
+    font-weight: bold;
+
+    font-size: 20pt;
+    margin-top: 25px;
+}
+
+.featured-proj-skills {
+    font-family: Karla;
+    color: #8D8D8D;
+
+    font-size: 16pt;
+}
+
+.featured-proj-description {
+    font-family: Karla;
+    font-size: 16pt;
+}
+
+.featured-proj-img {
+    position: relative;
+}
+
+.feautre-proj-banner {
+    width: 600px;
+}
+
+.featured-proj-arrow {
+    position: absolute;
+    display: block;
+
+    right: 10%;
+    top: 90%;
+
+    width: 60px;
+    
+}
