@@ -1,0 +1,69 @@
+
+.red {
+    border: 4px solid #E06B65;
+}
+
+
+.quote {
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 50%;
+    width: 196px;
+    height: 196px;
+    font-size: small;
+    background-color:#E06B65;
+    text-align: center;
+}
+
+.special-container {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    opacity: 0;
+    transition: .3s ease;
+  }
+
+.special-container:hover .overlay {
+    opacity: 0.8;
+  }
+
+.memberpic{
+    border-radius: 50%;
+    width: 180px;
+    padding: 4px;
+}
+
+.teammemberContainer{
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.teammember{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+}
+
+.teamname {
+    font-weight: bold;
+    font-style: normal;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+
+.teamrest {
+    text-align: center;
+    margin-bottom: 1px;
+    margin-top: 0px;
+
+
+}
