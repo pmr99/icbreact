@@ -9,13 +9,14 @@ const TeamMembers = Members.members.team
 const Team = () => {
 return (
 	<>
+	<h1> Exec Team </h1>
 	<div className = "teammemberContainer">
 	{ExecMembers.map((exec)=> (
 		<Execmember exec = {exec}></Execmember>
 		))
 	}
 	</div>
-
+	<h1> Our Team </h1>
 	<div className = "teammemberContainer">
 	{TeamMembers.map((team)=> (
 		<Teammember team = {team}></Teammember>
