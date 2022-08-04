@@ -2,7 +2,10 @@ import React from 'react';
 //hello
 const OurStory = () => {
 return (
-	<h1>You can write your our story!</h1>
+	<div>
+		<img className="hero-image"></img>
+		<h4>Our Mission</h4>
+	</div>
 );
 };
 
