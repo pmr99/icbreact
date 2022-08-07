@@ -13,18 +13,44 @@ h4 {
 
 .featured-proj {
     margin: 50px;
+    width: 600px;
 }
 
 .featured-proj-name {
     font-family: Karla;
     font-weight: bold;
+
+    font-size: 20pt;
+    margin-top: 25px;
 }
 
 .featured-proj-skills {
     font-family: Karla;
     color: #8D8D8D;
+
+    font-size: 16pt;
 }
 
 .featured-proj-description {
     font-family: Karla;
+    font-size: 16pt;
+}
+
+.featured-proj-img {
+    position: relative;
+}
+
+.feautre-proj-banner {
+    width: 600px;
+}
+
+.featured-proj-arrow {
+    position: absolute;
+    display: block;
+
+    right: 10%;
+    top: 90%;
+
+    width: 60px;
+    
 }

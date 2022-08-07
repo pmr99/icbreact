@@ -6,12 +6,12 @@ import icbIcon_Environment from '../assets/images/icbIcon_Environment.png';
 
 
 import '../ourStory.css'
-import pillarIcon from '../components/pillarIcon';
+import PillarIcon from '../components/pillarIcon';
 
 //hello
 const OurStory = () => {
 return (
-	<div>
+	<div className="text_container">
 		<img className="hero-image"></img>
 		<div className='block'> 
 		<h4> Our Mission </h4>
@@ -25,10 +25,10 @@ return (
 		to improve or introduce solutions on poverty, health, environment, 
 		and society.</p>
 		
-		<pillarIcon image={icbIcon_Health} label="Health" />
-		<pillarIcon image={icbIcon_Poverty} label="Poverty" />
-		<pillarIcon image={icbIcon_Society} label="Society" />
-		<pillarIcon image={icbIcon_Environment} label="Environment" />
+		<PillarIcon image={icbIcon_Health} label="Health" ></PillarIcon><PillarIcon/>
+		<PillarIcon image={icbIcon_Poverty} label="Poverty" ></PillarIcon><PillarIcon/>
+		<PillarIcon image={icbIcon_Society} label="Society" ></PillarIcon><PillarIcon/>
+		<PillarIcon image={icbIcon_Environment} label="Environment" ></PillarIcon><PillarIcon/>
 
 
 

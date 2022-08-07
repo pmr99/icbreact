@@ -1,4 +1,5 @@
 import React from 'react';
+import proj1 from "../assets/projects-philz-preview.png"
 import LandingStats from '../components/indexComponents/landingStats';
 import LandingProjSummary from '../components/indexComponents/landingProjSummary';
 import Button from '../components/button'
@@ -17,9 +18,9 @@ return (
 		</div>
 		<h4> What We’ve Been Working On </h4>
 		<div className = "landing-projSummary-container">
-			<LandingProjSummary img = "" proj = "Project name" pillar = "Health" text = "This project is lit Yall" view = "put hyperlink here"> </LandingProjSummary>
-			<LandingProjSummary img = "" proj = "Project name" pillar = "Health" text = "This project is lit Yall" view = "put hyperlink here"> </LandingProjSummary>
-			<LandingProjSummary img = "" proj = "Project name" pillar = "Health" text = "This project is lit Yall" view = "put hyperlink here"> </LandingProjSummary>
+			<LandingProjSummary img = {proj1} proj = "Project name" pillar = "Health" text = "This project is lit Yall" view = "put hyperlink here"> </LandingProjSummary>
+			<LandingProjSummary img = {proj1} proj = "Project name" pillar = "Health" text = "This project is lit Yall" view = "put hyperlink here"> </LandingProjSummary>
+			<LandingProjSummary img = {proj1} proj = "Project name" pillar = "Health" text = "This project is lit Yall" view = "put hyperlink here"> </LandingProjSummary>
 		</div>
 		<h4> Let's Work Together </h4>
 		<div className = "duo-callout">
