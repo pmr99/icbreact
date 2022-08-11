@@ -1,0 +1,36 @@
+h4 {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 36px;
+}
+
+
+h5 {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 28px;
+}
+
+p {
+    font-family: Karla;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.text_container {
+    margin: 90px;
+}
+
+.icon_text {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.icons {
+    width: 80px;
+    height: 80px;
+}
+
+
