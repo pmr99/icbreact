@@ -15,7 +15,7 @@ return (
 						alt="image of philz coffee cup"
 						skills="Mobile Design · Branding · Data Analysis"
 						description="Reimaging the in-store experience with customers during the COVID-19 pandemic."
-						url="../pages/projects/philz.js">
+						url="/projects/philz">
 			</FeaturedProj>
 
 			<FeaturedProj name="Philz Coffee"

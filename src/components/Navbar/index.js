@@ -25,12 +25,16 @@ const Navbar = () => {
           <NavLink to="/workshop" activeStyle>
             Workshop
           </NavLink>
+          {/*
           <NavLink to="/designathon" activeStyle>
             Designathon
           </NavLink>
+          */}
+          {/*
           <NavLink to="/mentor" activeStyle>
             Mentor
           </NavLink>
+          */}
           <NavLink to="/recruitment" activeStyle>
             Recruitment
           </NavLink>
