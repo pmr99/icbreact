@@ -1,4 +1,4 @@
-
+import "./projtemplate.css"
 
 const Projtemplate = (props) => {
     return (
@@ -6,22 +6,44 @@ const Projtemplate = (props) => {
             <div className = "proj-header-container">
                 <img className = "proj-header-left" src = {props.img}/>
                 <div className = "proj-header-right">
-                    <h1 > {props.name}</h1>
-                    <h2> {props.subtitle}</h2>
-                    <p> Duration</p>
-                    <p> {props.duration}</p>
-                    <p> Focus</p>
-                    <p> {props.focus}</p>
-                    <p> Tools</p>
-                    <p> {props.tools}</p>
-                    <p> Partner </p>
-                    <p> {props.partner}</p>
+                    <h1 className = "title-text-1"> {props.name}</h1>
+                    <h2 style = {{textAlign : "center"}}> {props.subtitle}</h2>
+                    <div className = "proj-header-sub-container">
+                        <div className = "proj-header-sub-left-container">
+                            <p classname = "basic-text"> Duration</p>
+                            <p classname = "basic-text">  Focus</p>
+                            <p classname = "basic-text"> Tools</p>
+                            <p classname = "basic-text"> Partner </p>
+                        </div>
+                        <div className = "proj-header-sub-right-container">
+                            <p classname = "basic-text"> {props.duration}</p>
+                            <p classname = "basic-text"> {props.focus}</p>
+                            <p classname = "basic-text"> {props.tools}</p>
+                            <p classname = "basic-text"> {props.partner}</p>
+                        </div>
+                    </div>
+
                 </div>
             </div>
             <h1> Team</h1>
+            <div className = "indiv-member-container"> 
+            {props.team.map( (team)=> {
+                return (
+                    <div> 
+                        <img className = "indiv-member" src = {team.pic}/>
+                        <p className = "teamname">{team.name} </p>
+                        <p className = "teamname">{team.role} </p>
+                        </div>
+                )
+
+                }
+            )
+            }
+            </div>
+        
             <div className = "proj-team-container">
             </div>
-            <h1> Team</h1>
+            <h1> Overview</h1>
             <p> {props.background}</p> 
 
             <h1> Partner </h1>
@@ -33,14 +55,15 @@ const Projtemplate = (props) => {
             <div className = "proj-research-overall-container">
                 <div className = "proj-research-container">
                     <img src = {props.research1img}/>
-                    <p> {props.research1text}</p>
+                    <p style = {{textAlign: "center"}}> Qualitative </p>
+                    <p style = {{textAlign: "center"}}> {props.research1text}</p>
                 </div>
 
                 <div className = "proj-research-container">
                     <img src = {props.research2img}/>
-                    <p> {props.research2text}</p>
+                    <p style = {{textAlign: "center"}}> Quantitative </p>
+                    <p style = {{textAlign: "center"}}> {props.research2text}</p>
                 </div>
-
 
             </div>
             
@@ -48,24 +71,24 @@ const Projtemplate = (props) => {
             <div className = "proj-deliverable-container">
                 <img className = "proj-header-left" src = {props.deliverablepic1}/>
                 <div className = "proj-header-right">
-                    <p> {props.deliverablesubtitle1} </p>
-                    <p> {props.deliverablecontent1} </p>
+                    <p className = "content-text"> {props.deliverablesubtitle1} </p>
+                    <p className = "content-text"> {props.deliverablecontent1} </p>
                 </div>
             </div>
 
-            <div className = "proj-deliverable-container">
-                <img className = "proj-header-left" src = {props.deliverablepic2}/>
+            <div className = "proj-deliverable-container-rev">
+            <img className = "proj-header-left" src = {props.deliverablepic2}/>
                 <div className = "proj-header-right">
-                    <p> {props.deliverablesubtitle2} </p>
-                    <p> {props.deliverablecontent2} </p>
+                    <p className = "content-text"> {props.deliverablesubtitle2} </p>
+                    <p className = "content-text"> {props.deliverablecontent2} </p>
                 </div>
             </div>
 
             <div className = "proj-deliverable-container">
                 <img className = "proj-header-left" src = {props.deliverablepic3}/>
                 <div className = "proj-header-right">
-                    <p> {props.deliverablesubtitle3} </p>
-                    <p> {props.deliverablecontent3} </p>
+                    <p className = "content-text"> {props.deliverablesubtitle3} </p>
+                    <p className = "content-text"> {props.deliverablecontent3} </p>
                 </div>
             </div>
         </div>

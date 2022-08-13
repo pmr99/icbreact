@@ -9,8 +9,6 @@ const Philz = () => {
         
 
         <div>
-            {console.log(content)}
-
             <Projtemplate name = {content.name} 
             subtitle = {content.subtitle}
             duration = {content.duration}
@@ -21,7 +19,7 @@ const Philz = () => {
             team = {content.team}
             background = {content.background}
             partnertext = {content.partnertext}
-            deliverable = {content.deliberable}
+            deliverable = {content.deliverable}
             research1img = {content.research1img}
             research1text={content.research1text}
             research2img = {content.research2img}

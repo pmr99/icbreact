@@ -31,7 +31,6 @@ return (
 		<PillarIcon image={icbIcon_Environment} label="Environment" ></PillarIcon><PillarIcon/>
 
 
-
 		</div>
 
 
