@@ -12,6 +12,7 @@ import Projects from './pages/projects';
 import Recruitment from './pages/recruitment';
 import Team from './pages/team';
 import Workshop from './pages/workshop';
+import Philz from './pages/projects/philz';
 
 function App() {
 return (
@@ -27,6 +28,7 @@ return (
         <Route path='/recruitment' element={<Recruitment/>} />
         <Route path='/team' element={<Team/>} />
         <Route path='/workshop' element={<Workshop/>} />
+		<Route path= '/projects/philz' element={<Philz/>}/>
 	</Routes>
 	</Router>
 );

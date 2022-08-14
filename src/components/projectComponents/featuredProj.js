@@ -7,7 +7,7 @@ const FeaturedProj = ({banner, alt, name, skills, description, url}) => {
             <div className="featured-proj-img">
                 <img className="featured-proj-banner" src={banner} alt={alt}/>
                 <a href={url}>
-                    <img className="featured-proj-arrow" src={ProjectArrow}/>
+                    <img className="featured-proj-arrow" src={ProjectArrow} alt=""/>
                 </a>
             </div>
             <div className="featured-proj-name"> {name} </div>

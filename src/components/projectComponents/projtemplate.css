@@ -1,0 +1,133 @@
+
+.proj-header-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: antiquewhite;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.proj-header-left {
+    width: 50%;
+    padding-left:5%;
+    padding-right: 5%;
+
+}
+
+.proj-header-right {
+    min-width: 300px;
+    margin-left: 5%;
+    width: 30%;
+}
+
+.basic-text {
+    color: black;
+}
+
+.title-text-1 {
+    margin-top: 20px;
+
+}
+
+
+.proj-research-overall-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.proj-research-container {
+    margin: 1%;
+
+}
+
+.proj-deliverable-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2%;
+
+}
+
+.proj-deliverable-container-rev {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2%;
+    flex-direction: row-reverse;
+}
+
+.proj-header-left {
+    width: 40%;
+
+
+}
+
+
+.proj-header-right {
+    margin: auto;
+
+}
+
+
+@media only screen and (max-width: 850px) {
+    .proj-header-left {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    .proj-header-right {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .proj-header-sub-right-container{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .proj-header-sub-left-container {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .basic-text {
+        text-align: center;
+    }
+    .title-text-1 {
+        text-align: center;
+    }
+
+    .content-text {
+        text-align: center;
+    }
+
+}
+
+
+
+.proj-header-sub-container {
+    display: flex;
+}
+
+
+.proj-header-sub-right-container {
+    padding-left: 10%;
+
+}
+
+.indiv-member-container {
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.indiv-member{
+    border-radius: 50%;
+    width: 180px;
+    padding: 4px;
+}
+
+.teamname {
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+}
+

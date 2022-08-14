@@ -8,7 +8,7 @@ import Callout from '../components/callout';
 const Home = () => {
 return (
 	<div>
-		<img className="hero-image"></img>
+		<img className="hero-image" alt=""></img>
 		<div className = "quote">[Insert brief overview w/ mission statement & work we do. 1-2 Sentences only.] Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus.</div>
 		<div className = "landing-stats-container">
 			<LandingStats img = "" number = "50" subheader = "Completed Projects"> </LandingStats>
