@@ -2,7 +2,7 @@ import React from 'react';
 import '../projects.css'
 import FeaturedProj from '../components/projectComponents/featuredProj';
 
-import PhilzPreview from '../assets/projects-philz-preview.png'
+import PhilzPreview from '../pages/project-images/philz-preview.png'
 
 const Projects = () => {
 return (
@@ -22,21 +22,8 @@ return (
 						banner={PhilzPreview}
 						alt="image of philz coffee cup"
 						skills="Mobile Design · Branding · Data Analysis"
-						description="Reimaging the in-store experience with customers during the COVID-19 pandemic.">
-			</FeaturedProj>
-
-			<FeaturedProj name="Philz Coffee"
-						banner={PhilzPreview}
-						alt="image of philz coffee cup"
-						skills="Mobile Design · Branding · Data Analysis"
-						description="Reimaging the in-store experience with customers during the COVID-19 pandemic.">
-			</FeaturedProj>
-
-			<FeaturedProj name="Philz Coffee"
-						banner={PhilzPreview}
-						alt="image of philz coffee cup"
-						skills="Mobile Design · Branding · Data Analysis"
-						description="Reimaging the in-store experience with customers during the COVID-19 pandemic.">
+						description="Reimaging the in-store experience with customers during the COVID-19 pandemic."
+						url="/projects/philz">
 			</FeaturedProj>
 		</div>
 	</div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import proj1 from "../assets/projects-philz-preview.png"
+import proj1 from '../pages/project-images/philz-preview.png'
 import LandingStats from '../components/indexComponents/landingStats';
 import LandingProjSummary from '../components/indexComponents/landingProjSummary';
 import Button from '../components/button'
