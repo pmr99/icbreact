@@ -28,7 +28,7 @@ const Members = {
             ],
             "team": [
                 {   
-                    "id": "0",
+                    "id": 0,
                     "name": "Abhinav",
                     "major": "Engineering",
                     "quote": "I am better than everyone",
@@ -36,7 +36,7 @@ const Members = {
                     "pic": ying,
                 },
                 {   
-                    "id": "1",
+                    "id": 1,
                     "name": "Kaleen",
                     "major": "Computer Science",
                     "quote": "I am better than everyone",
