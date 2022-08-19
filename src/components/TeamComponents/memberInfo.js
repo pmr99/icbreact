@@ -39,7 +39,7 @@ const Members = {
                     "role": "Chief Marketing Officer",
                     "major": "Computer Science",
                     "email": "cmo@icb.berkeley.edu",
-                    "quote": "always remember just how rare you are -- there is no one quite like you",
+                    "quote": "be obsessed with your own potential",
                     "linkedin": "https://www.linkedin.com/in/kaleen-chen-00a6a5168/",
                     "pic": ying,
                 },
@@ -70,7 +70,7 @@ const Members = {
                     "major": "Economics + Sustainable Environment Design",
                     "email": "cso@icb.berkeley.edu",
                     "quote": "Would I rather be feared or loved? Both. I want peole to be afriad of how much they love me. ",
-                    "linkedin": "",
+                    "linkedin": "https://www.linkedin.com/in/sarah-jang-/",
                     "pic": ying,
                 }, 
 
@@ -98,7 +98,7 @@ const Members = {
                     "name": "Anika Singhania",
                     "major": "Computer Science",
                     "quote": "",
-                    "linkedin": "",
+                    "linkedin": "https://www.linkedin.com/in/anikasinghania/",
                     "pic": ying,
                 },
                 {   
@@ -170,7 +170,7 @@ const Members = {
                     "name": "Malena Kleiven",
                     "major": "Sustainable Env. Design",
                     "quote": "",
-                    "linkedin": "",
+                    "linkedin": "https://www.linkedin.com/in/malena-kleiven-7859b6242/",
                     "pic": ying,
                 },
                 {   
@@ -178,7 +178,7 @@ const Members = {
                     "name": "Meghna Sharma",
                     "major": "Mechanical Engineering",
                     "quote": "",
-                    "linkedin": "",
+                    "linkedin": "https://www.linkedin.com/in/meghna-t-sharma/",
                     "pic": ying,
                 },
                 {   
@@ -194,7 +194,7 @@ const Members = {
                     "name": "Natalie Chu",
                     "major": "Architecture",
                     "quote": "",
-                    "linkedin": "",
+                    "linkedin": "https://www.linkedin.com/in/natalie-chu-23369a1b5/",
                     "pic": ying,
                 },
                 {   
@@ -250,7 +250,7 @@ const Members = {
                     "name": "Sunny Hsu",
                     "major":"Civil Engineering",
                     "quote": "",
-                    "linkedin": "",
+                    "linkedin": "https://www.linkedin.com/in/sunny-hsu-5931711a2/",
                     "pic": ying,
                 },
                 {   
@@ -258,7 +258,7 @@ const Members = {
                     "name": "Vince Han",
                     "major": "EECS + Business",
                     "quote": "",
-                    "linkedin": "",
+                    "linkedin": "https://www.linkedin.com/in/vincejhan/",
                     "pic": ying,
                 },
                 
