@@ -1,18 +1,18 @@
 import ProjectArrow from "../../assets/projects-arrow.png"
 
 
-const FeaturedProj = ({banner, alt, name, skills, description, url}) => {
+const FeaturedProj = ({featured}) => {
     return (
         <div className="featured-proj">
             <div className="featured-proj-img">
-                <img className="featured-proj-banner" src={banner} alt={alt}/>
-                <a href={url}>
+                <img className="featured-proj-banner" src={featured.banner} alt={featured.alt}/>
+                <a href={featured.url}>
                     <img className="featured-proj-arrow" src={ProjectArrow} alt=""/>
                 </a>
             </div>
-            <div className="featured-proj-name"> {name} </div>
-            <div className="featured-proj-skills"> {skills} </div>
-            <div className="featured-proj-description"> {description} </div>
+            <div className="featured-proj-name"> {featured.name} </div>
+            <div className="featured-proj-skills"> {featured.skills} </div>
+            <div className="featured-proj-description"> {featured.description} </div>
 
         </div>
 
