@@ -17,6 +17,7 @@ return (
 		</div>
 
 		<h4> Past Workshop Speakers </h4>
+
 		<h4> Member Voices</h4>
 		<div className="testimonial-container">
 			{testimonialData.map((testimonial) => (
@@ -24,6 +25,10 @@ return (
 			))
 			}
 		</div>
+
+		<h4> Spring 2022 Project Teams </h4>
+
+		<h4> FAQs </h4>
 	</div>
 );
 };
