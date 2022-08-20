@@ -33,4 +33,12 @@ p {
     height: 80px;
 }
 
+.icon_container{
+    display:flex;
+    justify-content:space-evenly;
+}
+
+.icon_box{
+    left:50%;
+}
 
