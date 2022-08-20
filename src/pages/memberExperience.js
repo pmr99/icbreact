@@ -1,9 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
+
 import '../components/memberExperienceComponents/memberExperience.css'
+import '../index.css'
+
 
 import Day from '../components/memberExperienceComponents/day.js'
 import Testimonial from '../components/memberExperienceComponents/testimonial.js'
 import memExperienceData from '../components/memberExperienceComponents/memberExperienceData'
+import Faq from '../components/faq'
 
 const testimonialData = memExperienceData.testimonials
 
@@ -29,6 +33,12 @@ return (
 		<h4> Spring 2022 Project Teams </h4>
 
 		<h4> FAQs </h4>
+		<div className="faqs-container">
+			<Faq question="how are you" answer="good"/>
+			<Faq question="how are you" answer="good"/>
+			<Faq question="how are you" answer="good"/>
+		</div>
+
 	</div>
 );
 };

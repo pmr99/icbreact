@@ -100,3 +100,34 @@ code {
   justify-content: center;
 }
 
+.faq-container {
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 20px 0px;
+}
+
+.faq-question {
+  font-family: Poppins;
+  font-size: 16pt;
+  font-weight: 700;
+}
+
+.faq-toggle {
+  font-family: Poppins;
+  font-size: 20pt;
+  font-weight: 500;
+}
+
+.faq-answer {
+  font-family: Karla;
+  font-size: 16pt;
+  padding: 10px 20px;
+}
+.question-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  cursor: pointer;
+}
