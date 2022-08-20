@@ -3,10 +3,9 @@ import '../components/memberExperienceComponents/memberExperience.css'
 
 import Day from '../components/memberExperienceComponents/day.js'
 import Testimonial from '../components/memberExperienceComponents/testimonial.js'
+import memExperienceData from '../components/memberExperienceComponents/memberExperienceData'
 
-import Ying from "../assets/ying.png"
-
-import redWave from "../assets/images/red-wave.png"
+const testimonialData = memExperienceData.testimonials
 
 const MemberExperience = () => {
 return (
@@ -19,9 +18,12 @@ return (
 
 		<h4> Past Workshop Speakers </h4>
 		<h4> Member Voices</h4>
-		<Testimonial color="#CB5555" wave={redWave} background="#FCD7D7" quote="Amet, tincidunt platea molestie molestie pharetra arcu dictum. Elementum tellus sit mi semper sagittis egestas erat feugiat diam." image={Ying} alt="photo of ying lin" name="Ying Lin" role="CEO of Invention Corps">
-		</Testimonial>
-
+		<div className="testimonial-container">
+			{testimonialData.map((testimonial) => (
+				<Testimonial testimonial={testimonial}></Testimonial>
+			))
+			}
+		</div>
 	</div>
 );
 };

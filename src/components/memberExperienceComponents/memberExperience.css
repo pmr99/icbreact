@@ -1,24 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-.testimonial {
-    width: 250px;
-    text-align: center;
-    position: relative;
-    z-index: -999;
+.testimonial-container {
+    width: 50%; 
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
 }
 
-.quote-mark {
-    font-family: Karla;
-    font-size: 72pt;
+.testimonial {
+    width: 250px;
+    height: 350px;
+    text-align: center;
+    position: relative;
 
-    text-align: left;
-    margin: 0;
-    padding: 0;
+    margin: 20px 10px;
+}
+
+.testimonial-bg {
+    width: 250px;
+    height: 350px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -999;
 }
 
 .testimonial-quote {
     font-family: Karla;
     font-size: 16pt;
+    padding-top: 50px;
+    margin-bottom: 0px;
 }
 
 .testimonial-wave {
@@ -29,11 +40,15 @@
 }
 
 .testimonial-img {
+    position: absolute;
+    top: 45%;
+    left: 75px;
     width: 100px;
     border-radius: 50%;
 }
 
 .testimonial-name {
+    margin-top: 190px;
     font-family: Karla;
     font-size: 16pt;
     font-weight: 700;
