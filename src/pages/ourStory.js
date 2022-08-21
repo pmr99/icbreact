@@ -48,12 +48,13 @@ return (
 				united by our core values and beliefs centered around positive impact. It is important to us to foster a 
 				collaborative, open-minded, and empathetic culture.</p>
 			<div className='coreValues_container'>
-					<CoreValueBox text="We promote the value of diverse thought." color="#E07375"/>
-					<CoreValueBox text="We practice human-centered design. 
-					We prioritize positive social impact with tangible outcomes. 
-					We produce researched, high quality, and intentional designs." color="#99CCFF"/>
-					<CoreValueBox text="We try, we modify, we try again." color="#F2C607"/>
-					<CoreValueBox text="We are leaders who empower ourselves and others." color="#4F8F4F"/>
+					<CoreValueBox text={["We promote the value of ", <strong>diverse thought</strong>,"."]} color="#E07375"/>
+					<CoreValueBox text={["We practice human-centered design. We prioritize ", 
+					<strong>positive social impact</strong>, 
+					" with tangible outcomes. We produce researched, high quality, and intentional designs."]} 
+					color="#99CCFF"/>
+					<CoreValueBox text={["We try, we modify, ", <strong>we try again</strong>, "."]} color="#F2C607"/>
+					<CoreValueBox text={["We are ",<strong>leaders who empower</strong>," ourselves and others."]} color="#4F8F4F"/>
 			</div>
 		</div>
 
