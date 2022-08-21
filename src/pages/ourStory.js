@@ -2,7 +2,7 @@ import icbIcon_Health from '../assets/images/icbIcon_Health.png';
 import icbIcon_Poverty from '../assets/images/icbIcon_Poverty.png';
 import icbIcon_Society from '../assets/images/icbIcon_Society.png';
 import icbIcon_Environment from '../assets/images/icbIcon_Environment.png';
-
+import CoreValueBox from '../components/coreValueBox';
 
 
 import '../ourStory.css'
@@ -26,21 +26,17 @@ return (
 			and society.</p>
 				<div className="icon_container">
 					<div className="icon_box">
-						<PillarIcon image={icbIcon_Health} label="Health"></PillarIcon><PillarIcon/>
-						<h5>HEALTH</h5>
-						</div>
+						<PillarIcon image={icbIcon_Health} label="HEALTH"/>
+					</div>
 					<div className="icon_box">
-						<PillarIcon image={icbIcon_Poverty} label="Poverty"></PillarIcon><PillarIcon/>
-						<h5>POVERTY</h5>
-						</div>
+						<PillarIcon image={icbIcon_Poverty} label="POVERTY"/>
+					</div>
 					<div className="icon_box">
-						<PillarIcon image={icbIcon_Society} label="Society"></PillarIcon><PillarIcon/>
-						<h5>SOCIETY</h5>
-						</div>
+						<PillarIcon image={icbIcon_Society} label="SOCIETY"/>
+					</div>
 					<div className="icon_box">
-						<PillarIcon image={icbIcon_Environment} label="Environment"></PillarIcon><PillarIcon/>
-						<h5>ENVIRONMENT</h5>
-						</div>
+						<PillarIcon image={icbIcon_Environment} label="ENVIRONMENT"/>
+					</div>
 				</div>
 		</div>
 		<div className='block'>
@@ -51,6 +47,14 @@ return (
 				the goal of empowering ourselves and others. We strive to create a community of unique individuals, 
 				united by our core values and beliefs centered around positive impact. It is important to us to foster a 
 				collaborative, open-minded, and empathetic culture.</p>
+			<div className='coreValues_container'>
+					<CoreValueBox text="We promote the value of diverse thought." color="#E07375"/>
+					<CoreValueBox text="We practice human-centered design. 
+					We prioritize positive social impact with tangible outcomes. 
+					We produce researched, high quality, and intentional designs." color="#99CCFF"/>
+					<CoreValueBox text="We try, we modify, we try again." color="#F2C607"/>
+					<CoreValueBox text="We are leaders who empower ourselves and others." color="#4F8F4F"/>
+			</div>
 		</div>
 
 		<div className='block'>

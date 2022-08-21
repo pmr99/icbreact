@@ -1,8 +1,8 @@
 const PillarIcon = ({image, label}) => {
   return (
-    <div>
+    <div className="icon_box">
     <img className="icons" src={image} alt="ICB Pillar Icon" />
-    {/* <div className="icon-text">{label}</div> */}
+    <div className="icon_text">{label}</div>
     </div>
     
   )
